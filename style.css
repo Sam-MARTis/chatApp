@@ -31,7 +31,11 @@ body{
 }
 .textBubble{
     position:relative;
-    width: 10%;
+    /* width: 10%; */
+    max-width: 80%;
+    flex-wrap: wrap;
+    text-wrap:wrap;
+    overflow-wrap:break-word;
     background-color: aqua;
     margin: 10px;
     padding: 20px;
@@ -45,4 +49,9 @@ body{
 .self{
     align-self: self-start;
     background-color: bisque;
+}
+
+#emptyTextDiv{
+
+    background-color: transparent;
 }
