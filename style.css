@@ -22,3 +22,27 @@ body{
     display: flex;
     flex-direction: column;
 }
+#textContainer{
+    position: relative;
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.textBubble{
+    position:relative;
+    width: 10%;
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.other{
+    align-self: flex-end;
+    background-color:azure;
+}
+.self{
+    align-self: self-start;
+    background-color: bisque;
+}
